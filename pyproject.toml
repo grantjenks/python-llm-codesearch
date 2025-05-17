@@ -1,0 +1,10 @@
+[project]
+name = "llm-codesearch"
+version = "0.1.0"
+description = "LLM extension for repository code search"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["click"]
+
+[project.entry-points."llm.plugins"]
+codesearch = "llm_codesearch:register"
