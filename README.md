@@ -12,3 +12,17 @@ llm codesearch "How is authentication implemented?"
 ```
 
 Refer to the module docstrings for details on the implementation.
+
+## Development
+
+Create a virtual environment and install the project with test dependencies:
+
+```bash
+pip install -e .[test]
+```
+
+Run the tests using `pytest` or `unittest`:
+
+```bash
+pytest
+```
